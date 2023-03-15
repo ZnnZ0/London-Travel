@@ -1,0 +1,19 @@
+footer {
+    color: gray;
+    background-color: white;
+}
+
+footer h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
+
+footer span {
+    font-weight: bold;
+    font-style: italic;
+}
