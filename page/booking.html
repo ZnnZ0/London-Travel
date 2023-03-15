@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/booking.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src="../js/ready.js"></script>
+    <script type="text/javascript" src="../js/jump.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/booking.js"></script>
+</head>
+
+<body onload="ready()">
+    <header>
+        <nav id="upper-menu">
+            <ul id="upper-menu-list">
+                <li>
+                    <a href="../index.html">Top</a>
+                </li>
+                <li class="has-sub-menu">
+                    <span>English</span>
+                    <ul class="sub-menu upper-menu-list-top">
+                        <li>
+                            <a href="">Français</a>
+                        </li>
+                        <li>
+                            <a href="">Japanese</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="main-menu">
+            <ul id="main-menu-list">
+                <li class="has-sub-menu">
+                    <span>Harry Potter Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-harryPotterTour">About</a>
+                        </li>
+                        <li>
+                            <a href="harryPotterTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="harryPotterTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>History Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-historyTour">About</a>
+                        </li>
+                        <li>
+                            <a href="historyTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="historyTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>Nature Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-natureTour">About</a>
+                        </li>
+                        <li>
+                            <a href="natureTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="natureTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="booking.html">Booking</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-content">
+        <h1>Booking</h1>
+        <div id="main-content-booking">
+            <div>
+                <h2>Tour</h2>
+                <select id="mySelect_1day">
+                    <option value="option1">Harry Potter Tour</option>
+                    <option value="option2">History Tour</option>
+                    <option value="option3">Nature Tour</option>
+                </select>
+            </div>
+            <div>
+                <h2>Member</h2>
+                <p>Baby(~6)</p>
+                <input type="text" value="0" required>
+                <p>Child(7~18)</p>
+                <input type="text" value="0" required>
+                <p>Adult(19~60)</p>
+                <input type="text" value="1" required>
+                <p>Adult(61~)</p>
+                <input type="text" value="0" required>
+            </div>
+            <div>
+                <h2>Date</h2>
+                <input type="date" id="date_1day">
+            </div>
+            <div>
+                <h2>Mail</h2>
+                <input type="text" id="email1" name="name" required>
+            </div>
+            <button onclick="getSelectedValue_1day()">Check</button>
+        </div>
+    </div>
+
+    <footer>
+        <h1>London Travel</h1>
+        <p>copyright© <span>London Travel</span> All right reserved.</p>
+    </footer>
+</body>
+
+</html>

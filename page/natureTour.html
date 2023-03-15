@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>London Travel > Nature Tour</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/tour.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src="../js/ready.js"></script>
+    <script type="text/javascript" src="../js/jump.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/tour.js"></script>
+</head>
+
+<body onload="ready()">
+    <header>
+        <nav id="upper-menu">
+            <ul id="upper-menu-list">
+                <li>
+                    <a href="../index.html">Top</a>
+                </li>
+                <li class="has-sub-menu">
+                    <span>English</span>
+                    <ul class="sub-menu upper-menu-list-top">
+                        <li>
+                            <a href="">Français</a>
+                        </li>
+                        <li>
+                            <a href="">Japanese</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="main-menu">
+            <ul id="main-menu-list">
+                <li class="has-sub-menu">
+                    <span>Harry Potter Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-harryPotterTour">About</a>
+                        </li>
+                        <li>
+                            <a href="../page/harryPotterTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="../page/harryPotterTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>History Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-historyTour">About</a>
+                        </li>
+                        <li>
+                            <a href="../page/historyTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="../page/historyTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>Nature Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-natureTour">About</a>
+                        </li>
+                        <li>
+                            <a href="#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../page/booking.html">Booking</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="main-content">
+        <h1>Nature Tour</h1>
+        <!--One Day Tour-->
+        <h2 id="main-content-oneDayTour">One Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/natureTour/natureTour_Stonehenge.jpg" id="main-content-schedule-left-imgArea1">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('nature', 'Stonehenge', 1)">09:00 Stonehenge</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'GiantsCauseway', 1)">13:00 Giant’s Causeway</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'HydePark', 1)">15:00 Hyde Park</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea1">
+                    A megalithic structure that suddenly appears in the plains of Salisbury in southern England.
+                    Stonehenge is believed to have been built over three periods, around 3000 B.C. to 1500 B.C.
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+        <!--Two Day Tour-->
+        <h2 id="main-content-twoDayTour">Two Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/natureTour/natureTour_Stonehenge.jpg" id="main-content-schedule-left-imgArea2">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('nature', 'Stonehenge', 2)">09:00 Stonehenge</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'GiantsCauseway', 2)">13:00 Giant’s Causeway</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'HydePark', 2)">15:00 Hyde Park</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea2">
+                    A megalithic structure that suddenly appears in the plains of Salisbury in southern England.
+                    Stonehenge is believed to have been built over three periods, around 3000 B.C. to 1500 B.C.
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+        <h3>Day2</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg"
+                    id="main-content-schedule-left-imgArea3">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('nature', 'BirlingGapAndTheSevenSisters', 3)">09:00 Birling Gap and
+                            the Seven
+                            Sisters</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'LochNess', 3)">13:00 Loch Ness</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('nature', 'TheOrkneyIslands', 3)">15:00 The Orkney Islands</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea3">
+                    Birling Gap and the Seven Sisters are sea cliffs of Cretaceous chalk in East Sussex, southern
+                    England. The name derives from the appearance of white cliffs formed by scraping away gently
+                    undulating hills.
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>London Travel</h1>
+        <p>copyright© <span>London Travel</span> All right reserved.</p>
+    </footer>
+</body>
+
+</html>

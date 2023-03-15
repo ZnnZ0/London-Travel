@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>London Travel > Harry Potter Tour</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/tour.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src="../js/ready.js"></script>
+    <script type="text/javascript" src="../js/jump.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/tour.js"></script>
+</head>
+
+<body onload="ready()">
+    <header>
+        <nav id="upper-menu">
+            <ul id="upper-menu-list">
+                <li>
+                    <a href="../index.html">Top</a>
+                </li>
+                <li class="has-sub-menu">
+                    <span>English</span>
+                    <ul class="sub-menu upper-menu-list-top">
+                        <li>
+                            <a href="">Français</a>
+                        </li>
+                        <li>
+                            <a href="">Japanese</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="main-menu">
+            <ul id="main-menu-list">
+                <li class="has-sub-menu">
+                    <span>Harry Potter Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-harryPotterTour">About</a>
+                        </li>
+                        <li>
+                            <a href="#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>History Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-historyTour">About</a>
+                        </li>
+                        <li>
+                            <a href="../page/historyTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="../page/historyTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>Nature Tour</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="../index.html#main-content-tourAbout-natureTour">About</a>
+                        </li>
+                        <li>
+                            <a href="../page/natureTour.html#main-content-oneDayTour">One Day Tour</a>
+                        </li>
+                        <li>
+                            <a href="../page/natureTour.html#main-content-twoDayTour">Two Day Tour</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../page/booking.html">Booking</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="main-content">
+        <h1>Harry Potter Tour</h1>
+        <!--One Day Tour-->
+        <h2 id="main-content-oneDayTour">One Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_KingsCrossstation.jpg"
+                    id="main-content-schedule-left-imgArea1">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('harry', 'KingsCrossStation', 1)">09:00 King's Cross station</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('harry', 'LeadenhallMarket', 1)">11:00 Leadenhall Market</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('harry', 'LondonMillenniumFootbridge', 1)">13:00 London Millennium
+                            Footbridge</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea1">
+                    King's Cross station is a train station in London, England. The main terminal for Muggle trains,
+                    students of Hogwarts School of Witchcraft and Wizardry board the Hogwarts Express from Platform 9
+                    3/4 at 11:00 a.m. on September 1 each year. To enter Platforms 9 and 3/4, you must go straight
+                    through the fence wall between Platforms 9 and 10.
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+        <!--Two Day Tour-->
+        <h2 id="main-content-twoDayTour">Two Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_KingsCrossstation.jpg"
+                    id="main-content-schedule-left-imgArea2">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('harry', 'KingsCrossStation', 2)">09:00 King's Cross station</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('harry', 'LeadenhallMarket', 2)">11:00 Leadenhall Market</span>
+                    </li>
+                    <li>
+                        <span onclick="changeView('harry', 'LondonMillenniumFootbridge', 2)">13:00 London Millennium
+                            Footbridge</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea2">
+                    King's Cross station is a train station in London, England. The main terminal for Muggle trains,
+                    students of Hogwarts School of Witchcraft and Wizardry board the Hogwarts Express from Platform 9
+                    3/4 at 11:00 a.m. on September 1 each year. To enter Platforms 9 and 3/4, you must go straight
+                    through the fence wall between Platforms 9 and 10.
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+        <h3>Day2</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg"
+                    id="main-content-schedule-left-imgArea3">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <span onclick="changeView('harry', 'HarryPotterStudio', 3)">09:00 Harry Potter Studio</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea3">
+                    The Making of Harry Potter is a walkthrough exhibition and studio tour in Leavesden, Hertfordshire,
+                    UK, owned by Warner Bros. and operated by their Studio Tours division. It is located within Warner
+                    Bros. Studios, Leavesden, in Watford, in southwest Hertfordshire, and houses a permanent exhibition
+                    of authentic costumes, props and sets utilised in the production of the Harry Potter films, as well
+                    as behind-the-scenes production of visual effects. The tour is contained in Soundstages J and K,
+                    which were specially built for the attraction, and is separate from the studio's actual production
+                    facilities.
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>London Travel</h1>
+        <p>copyright© <span>London Travel</span> All right reserved.</p>
+    </footer>
+</body>
+
+</html>
