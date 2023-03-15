@@ -1,0 +1,4 @@
+function ready() {
+    readySubList();
+    readyImg();
+}
