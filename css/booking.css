@@ -26,7 +26,7 @@ body {
 
 #main-content-booking input[type="text"] {
     border: 0px;
-    border-bottom: 3px solid lightskyblue;
+    border-bottom: 3px solid #999966;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -35,7 +35,7 @@ body {
     width: 200px;
     font-size: 20px;
     border: 0px;
-    border-bottom: 3px solid lightskyblue;
+    border-bottom: 3px solid #999966;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -56,6 +56,11 @@ body {
 }
 
 .main-content-booking-member-detail input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+#main-content-booking-date input[type="text"] {
     width: 50px;
     text-align: center;
 }
