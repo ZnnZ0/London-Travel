@@ -99,12 +99,12 @@ body {
     text-align: center;
 }
 
-#infomation {
+#information {
     font-size: 20px;
     padding: 100px 0px 5px 10px;
     border-bottom: 3px solid grey;
 }
 
-#infomation li, p {
+#information li, p {
     font-size: 25px;
 }
