@@ -128,3 +128,34 @@ body {
 .main-content-tourAbout-slide {
     width: 500px;
 }
+
+.logo{
+    margin-top: 20px;
+	width:100%;
+	text-align:center;
+}
+.logo h1{
+	position:relative;
+	display:inline-block;
+    color:#996633;
+    font-size: 60px;
+}
+.logo h2{
+	position:relative;
+	display:inline-block;
+    color: 	 #CC9966;
+    font-size: 30px;
+}
+.logo h1:before, .logo h1:after{
+	content:"";
+	display:block;
+	width:200px;
+	height:4px;
+	border-top:1px solid 	#CC9933;
+	border-bottom:1px solid #CC9933;
+	position:absolute;
+	top:50%;
+	margin-top:-2px;
+}
+.logo h1:before{left:-224px;}
+.logo h1:after{right:-224px;}  
