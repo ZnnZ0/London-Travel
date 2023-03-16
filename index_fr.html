@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>London Travel Top</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="js/ready.js"></script>
+    <script type="text/javascript" src="js/jump.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="ready()">
+    <header>
+        <nav id="upper-menu">
+            <ul id="upper-menu-list">
+                <li>
+                    <a href="index_fr.html">Top</a>
+                </li>
+                <li class="has-sub-menu">
+                    <span>Français</span>
+                    <ul class="sub-menu upper-menu-list-top">
+                        <li>
+                            <a href="index.html">Anglais</a>
+                        </li>
+                        <li>
+                            <a href="index_jp.html">Japonais</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="main-menu">
+            <ul id="main-menu-list">
+                <li class="has-sub-menu">
+                    <span>Harry Potter Tournée</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-harryPotterTour">Aperçu</a></li>
+                        <li><a href="page/harryPotterTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/harryPotterTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>L'histoire Tournée</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-historyTour">Aperçu</a></li>
+                        <li><a href="page/historyTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/historyTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>Nature Tournée</span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-natureTour">Aperçu</a></li>
+                        <li><a href="page/natureTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/natureTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Réservation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+        <nav id="main-content">
+            <ul id="main-content-list">
+                <li>
+                    <a href="page/harryPotterTour.html">
+                        <img src="img/harryPotterTour_main3.jpg" id="harryPotterTour_main">
+                    </a>
+                </li>
+                <li>
+                    <a href="page/historyTour.html">
+                        <img src="img/historyTour_main3.jpg" id="historyTour_main">
+                    </a>
+                </li>
+                <li>
+                    <a href="page/natureTour.html">
+                        <img src="img/natureTour_main3.jpg" id="natureTour_main">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="main-content-about">
+            <!--Harry Potter Tour-->
+            <h1 id="main-content-tourAbout-harryPotterTour">Harry Potter Tournée</h1>
+            <div class="main-content-tourAbout">
+                <div>
+                    <img src="img/harryPotterTour_main1.jpg">
+                </div>
+                <div class="main-content-tourAbout-detail">
+                    <div class="main-content-tourAbout-detail-explain">
+                        <p>
+                            Cette visite vous invite à pénétrer dans le monde merveilleux de Harry Potter.
+                        </p>
+                        <p>
+                            Non seulement les célèbres Harriott Studios, mais aussi les lieux de tournage extérieurs
+                            avec un excellent guide.
+                        </p>
+                        <p>
+                            Explorez les richesses naturelles et les paysages urbains uniques de la Grande-Bretagne avec
+                            d'autres amateurs de Harry Potter !
+                        </p>
+                    </div>
+                    <p>
+                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-oneDayTour')">Un Jour
+                            Tournée</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-twoDayTour')">Duex Jours
+                            Tournée</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                    </p>
+                </div>
+            </div>
+            <!--History Tour-->
+            <h1 id="main-content-tourAbout-historyTour">L'histoire Tournée</h1>
+            <div class="main-content-tourAbout">
+                <div>
+                    <img src="img/historyTour_main1.jpg">
+                </div>
+                <div class="main-content-tourAbout-detail">
+                    <div class="main-content-tourAbout-detail-explain">
+                        <p>
+                            À propos de cette visite, vous profiterez de vues spectaculaires sur Londres.
+                        </p>
+                        <p>
+                            Big Ben et Buckingham Palace vous ramèneront au XIXe siècle.
+                        </p>
+                        <p>
+                            Il s'agit de l'itinéraire le plus courant pour visiter les sites touristiques les plus
+                            célèbres du monde.
+                        </p>
+                        <p>
+                            Choisissez ce circuit et profitez de votre voyage !
+                        </p>
+                    </div>
+                    <p>
+                        <button onclick="jumpPage('page/historyTour.html#main-content-oneDayTour')">Un Jour
+                            Tournée</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/historyTour.html#main-content-twoDayTour')">Duex Jours
+                            Tournée</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                    </p>
+                </div>
+            </div>
+            <!--Nature Tour-->
+            <h1 id="main-content-tourAbout-natureTour">Nature Tournée</h1>
+            <div class="main-content-tourAbout">
+                <div>
+                    <img src="img/natureTour_main1.jpg">
+                </div>
+                <div class="main-content-tourAbout-detail">
+                    <div class="main-content-tourAbout-detail-explain">
+                        <p>
+                            Explorez les richesses naturelles et les paysages urbains uniques de la Grande-Bretagne avec
+                            d'autres amateurs de Harry Potter !
+                        </p>
+                        <p>
+                            En parcourant les différentes îles de Grande-Bretagne, vous rencontrerez de nombreuses
+                            espèces animales et végétales, nature et d'espèces animales.
+                        </p>
+                        <p>
+                            Au cours de votre voyage, vous aurez également l'occasion de goûter à quelques-unes des
+                            délicieuses spécialités de la nature britannique.
+                        </p>
+                        <p>
+                            Avec un guide qui est fier d'être un expert de la nature britannique, c'est une visite que
+                            vous ne voudrez pas manquer.
+                            manquer !
+                        </p>
+                    </div>
+                    <p>
+                        <button onclick="jumpPage('page/natureTour.html#main-content-oneDayTour')">One Day Tour</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/natureTour.html#main-content-twoDayTour')">Two Day Tour</button>
+                    </p>
+                    <p>
+                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>London Travel</h1>
+        <p>copyright© <span>London Travel</span> All right reserved.</p>
+    </footer>
+</body>
+
+</html>

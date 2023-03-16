@@ -1,11 +1,10 @@
 footer {
-    color: gray;
+    color: #999966;
     background-color: white;
 }
 
 footer h1 {
     text-align: center;
-    font-style: italic;
 }
 
 footer p {
@@ -15,5 +14,4 @@ footer p {
 
 footer span {
     font-weight: bold;
-    font-style: italic;
 }

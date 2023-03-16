@@ -66,16 +66,16 @@ body {
 
 .main-content-schedule-right ul li label {
     padding-left: 5px;
-    border-left: 10px solid lightskyblue;
+    border-left: 10px solid gold;
 }
 
 .main-content-schedule-right ul li label:hover {
-    border-left: 10px solid lightseagreen;
+    border-left: 10px solid orange;
 }
 
 .main-content-schedule-right ul li input:checked+label {
-    border-left: 10px solid lightseagreen;
-    border-bottom: 2px solid lightseagreen;
+    border-left: 10px solid orange;
+    border-bottom: 2px solid orange;
 }
 
 .main-content-schedule-right p {

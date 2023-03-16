@@ -1,4 +1,3 @@
-//オンマウスプルダウンメニュー
 function readySubList() {
     var nodeList = document.querySelectorAll(".has-sub-menu"); //プルダウンメニューのNodeList
 
@@ -12,3 +11,4 @@ function readySubList() {
         });
     });
 }
+
