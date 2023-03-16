@@ -93,3 +93,28 @@ body {
 .main-content-tourAbout-slide {
     width: 500px;
 }
+
+.logo{
+    margin-top: 20px;
+	width:100%;
+	text-align:center;
+    font-size: 30px;
+}
+.logo h1{
+	position:relative;
+	display:inline-block;
+    color:#999966;
+}
+.logo h1:before, .logo h1:after{
+	content:"";
+	display:block;
+	width:200px;
+	height:4px;
+	border-top:1px solid #996600;
+	border-bottom:1px solid #996600;
+	position:absolute;
+	top:50%;
+	margin-top:-2px;
+}
+.logo h1:before{left:-224px;}
+.logo h1:after{right:-224px;}  
