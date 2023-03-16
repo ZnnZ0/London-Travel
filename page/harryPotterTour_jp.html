@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>London Travel > Harry Potter Tour</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/tour.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src="../js/ready.js"></script>
+    <script type="text/javascript" src="../js/jump.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script type="text/javascript" src="../js/tour.js"></script>
+</head>
+
+<body onload="ready()">
+    <header>
+        <nav id="upper-menu">
+            <ul id="upper-menu-list">
+                <li>
+                    <a href="../index_jp.html">Top</a>
+                </li>
+                <li>
+                    <a href="booking.html" id="booking">Booking</a>
+                </li>
+                <li class="has-sub-menu">
+                    <span>English</span>
+                    <ul class="sub-menu upper-menu-list-top">
+                        <li>
+                            <a href="">Français</a>
+                        </li>
+                        <li>
+                            <a href="">Japanese</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav id="main-menu">
+            <ul id="main-menu-list">
+                <li class="has-sub-menu">
+                    <span>
+                        <a href="../index_jp.html">Harry Potter Tour</a>
+                    </span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="harryPotterTour_jp.html#main-content-oneDayTour">日帰りツアー</a>
+                        </li>
+                        <li>
+                            <a href="harryPotterTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a>
+                        </li>
+                        <li>
+                            <a href="../index_jp.html#main-content-tourAbout-harryPotterTour">概要</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>
+                        <a href="../index_jp.html#main-content-tourAbout-historyTour">History Tour</a>
+                    </span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="historyTour_jp.html#main-content-oneDayTour">日帰りツアー</a>
+                        </li>
+                        <li>
+                            <a href="historyTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a>
+                        </li>
+                        <li>
+                            <a href="../index_jp.html#main-content-tourAbout-historyTour">概要</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-sub-menu">
+                    <span>
+                        <a href="../index_jp.html#main-content-tourAbout-natureTour">Nature Tour</a>
+                    </span>
+                    <ul class="sub-menu main-menu-list-top">
+                        <li>
+                            <a href="natureTour_jp.html#main-content-oneDayTour">日帰りツアー</a>
+                        </li>
+                        <li>
+                            <a href="natureTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a>
+                        </li>
+                        <li>
+                            <a href="../index_jp.html#main-content-tourAbout-natureTour">概要</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li>
+                    <a href="booking.html">Booking</a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="main-content">
+        <h1>Harry Potter Tour</h1>
+        <!--One Day Tour-->
+        <h2 id="main-content-oneDayTour">One Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_KingsCrossstation.jpg"
+                    id="main-content-schedule-left-imgArea1">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <input type="radio" name="oneDayTour" id="one1" checked>
+                        <label for="one1" onclick="changeView_jp('harry', 'KingsCrossStation', 1)">09:00 キングスクロス駅集合</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="oneDayTour" id="one2">
+                        <label for="one2" onclick="changeView_jp('harry', 'LeadenhallMarket', 1)">11:00 Leadenhall Market</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="oneDayTour" id="one3">
+                        <label for="one3" onclick="changeView_jp('harry', 'LondonMillenniumFootbridge', 1)">13:00 London Millennium
+                            Footbridge</label>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea1">
+                    キングス クロス駅は、イギリスのロンドンにある鉄道駅です。 
+                    マグルの列車のメイン ターミナルであるホグワーツ魔法魔術学校の生徒は、毎年 9 月 1 日の午前 11 時に、プラットフォーム 9 と 3/4 からホグワーツ エクスプレスに乗り込みます。 
+                    9番線と3/4番線に入るには、9番線と10番線の間のフェンスの壁を直進する必要があります。
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+        <!--Two Day Tour-->
+        <h2 id="main-content-twoDayTour">Two Day Tour</h2>
+        <h3>Day1</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_KingsCrossstation.jpg"
+                    id="main-content-schedule-left-imgArea2">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <input type="radio" name="twoDayTourDay1" id="twoDay1-1" checked>
+                        <label for="twoDay1-1" onclick="changeView_jp('harry', 'KingsCrossStation', 2)">09:00 キングスクロス駅</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="twoDayTourDay1" id="twoDay1-2">
+                        <label for="twoDay1-2" onclick="changeView_jp('harry', 'LeadenhallMarket', 2)">11:00 Leadenhall Market</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="twoDayTourDay1" id="twoDay1-3">
+                        <label for="twoDay1-3" onclick="changeView_jp('harry', 'LondonMillenniumFootbridge', 2)">13:00 London Millennium
+                            Footbridge</label>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea2">
+                    キングスクロス駅は、イギリスのロンドンにある鉄道駅です。 
+                    マグルの列車のメイン ターミナルであるホグワーツ魔法魔術学校の生徒は、毎年9月1日の午前11時に、プラットフォーム 9 と 3/4 からホグワーツ エクスプレスに乗り込みます。 
+                    9番線と3/4番線に入るには、9番線と10番線の間のフェンスの壁を直進する必要があります。
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">予約</button>
+                </p>
+            </div>
+        </div>
+        <h3>Day2</h3>
+        <div class="main-content-schedule">
+            <div class="main-content-schedule-left">
+                <img src="../img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg"
+                    id="main-content-schedule-left-imgArea3">
+            </div>
+            <div class="main-content-schedule-right">
+                <ul>
+                    <li>
+                        <input type="radio" name="twoDayTourDay2" id="twoDay2-1" checked>
+                        <label for="twoDay2-1" onclick="changeView_jp('harry', 'HarryPotterStudio', 3)">09:00 Harry Potter Studio</span>
+                    </li>
+                </ul>
+                <p id="main-content-schedule-right-expArea3">
+                    ワーナーブラザース スタジオツアーロンドン-メイキング・オブ ・ハリー・ポッター（英語: Warner Bros. Studio Tour London – The Making of Harry Potter）は、イギリスの首都ロンドン近郊の町ワトフォードにあるワーナー・ブラザースリーブスデン・スタジオ内に設けられたウォークスルー型の展示施設。
+                    映画ハリー・ポッターシリーズで実際に使用されたセット、衣装、小道具などが展示されている。
+                    ツアーはJエリアから一度屋外へ出て次のKエリアに進むよう配置されており、これは実際のスタジオ配置に即したものとなっている。
+                </p>
+                <p>
+                    <button onclick="jumpPage('../page/booking.html')">Booking</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>London Travel</h1>
+        <p>copyright© <span>London Travel</span> All right reserved.</p>
+    </footer>
+</body>
+
+</html>

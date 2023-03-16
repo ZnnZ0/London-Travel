@@ -16,6 +16,13 @@ var harryPotterTourExp = {
     HarryPotterStudio: "The Making of Harry Potter is a walkthrough exhibition and studio tour in Leavesden, Hertfordshire, UK, owned by Warner Bros. and operated by their Studio Tours division. It is located within Warner Bros. Studios, Leavesden, in Watford, in southwest Hertfordshire, and houses a permanent exhibition of authentic costumes, props and sets utilised in the production of the Harry Potter films, as well as behind-the-scenes production of visual effects. The tour is contained in Soundstages J and K, which were specially built for the attraction, and is separate from the studio's actual production facilities."
 };
 
+var harryPotterTourExp_jp = {
+    KingsCrossStation: "キングス クロス駅は、イギリスのロンドンにある鉄道駅です。 マグル列車のメイン ターミナルであるホグワーツ魔法魔術学校の生徒は、毎年 9 月 1 日の午前 11 時に、プラットフォーム 9 と 3/4 からホグワーツ エクスプレスに乗り込みます。 9番線と3/4番線に入るには、9番線と10番線の間のフェンスの壁を直進する必要があります。",
+    LeadenhallMarket: "映画『ハリー・ポッターと賢者の石』では、パブ「漏れ鍋」とダイアゴン横丁近くのロンドンの風景としてこの市場が使われた。",
+    LondonMillenniumFootbridge: "こちらの橋は、ハリーポッターシリーズの映画「ハリーポッターと謎のプリンス」の冒頭部分で登場し、デスイーターたちによって破壊されてしまいます。",
+    HarryPotterStudio: "ワーナーブラザース スタジオツアーロンドン-メイキング・オブ ・ハリー・ポッター（英語: Warner Bros. Studio Tour London – The Making of Harry Potter）は、イギリスの首都ロンドン近郊の町ワトフォードにあるワーナー・ブラザースリーブスデン・スタジオ内に設けられたウォークスルー型の展示施設。映画ハリー・ポッターシリーズで実際に使用されたセット、衣装、小道具などが展示されている。ツアーはJエリアから一度屋外へ出て次のKエリアに進むよう配置されており、これは実際のスタジオ配置に即したものとなっている。"
+};
+
 var historyTourSrc = {
     WestminsterAbbey: "../img/historyTour/historyTour_WestminsterAbbey.jpg",
     BuckinghamPalace: "../img/historyTour/historyTour_BuckinghamPalace.jpg",
@@ -68,6 +75,28 @@ function changeView(tour, place, changeNum) {
         case "harry": newExp = harryPotterTourExp[place]; break;
         case "history": newExp = historyTourExp[place]; break;
         case "nature": newExp = natureTourExp[place]; break;
+    }
+
+    img.src = newImg;
+    exp.textContent = newExp;
+}
+
+function changeView_jp(tour, place, changeNum) {
+    var img = document.getElementById("main-content-schedule-left-imgArea" + changeNum);
+    var exp = document.getElementById("main-content-schedule-right-expArea" + changeNum);
+    var newImg;
+    var newExp;
+
+    switch (tour) {
+        case "harry": newImg = harryPotterTourSrc[place]; break;
+        case "history": newImg = historyTourSrc[place]; break;
+        case "nature": newImg = natureTourSrc[place]; break;
+    }
+
+    switch (tour) {
+        case "harry": newExp = harryPotterTourExp_jp[place]; break;
+        case "history": newExp = historyTourExp_jp[place]; break;
+        case "nature": newExp = natureTourExp_jp[place]; break;
     }
 
     img.src = newImg;
