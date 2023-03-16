@@ -93,3 +93,8 @@ body {
 .main-content-tourAbout-slide {
     width: 500px;
 }
+
+#under_main {
+    height: 200px;
+    text-align: center;
+}
