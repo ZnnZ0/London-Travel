@@ -98,3 +98,13 @@ body {
     height: 200px;
     text-align: center;
 }
+
+#infomation {
+    font-size: 20px;
+    padding: 100px 0px 5px 10px;
+    border-bottom: 3px solid grey;
+}
+
+#infomation li, p {
+    font-size: 25px;
+}
