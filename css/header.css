@@ -6,7 +6,7 @@ header {
 
     /*font*/
     color: white;
-    background-color: gray;
+    background-color: #996600;
     text-align: center;
 }
 
@@ -85,7 +85,7 @@ header {
 }
 
 .sub-menu li {
-    background-color: lightgray;
+    background-color: #999966;
     transition: all 0.3s ease;
 }
 
@@ -94,9 +94,9 @@ header {
 }
 
 .sub-menu-active li:hover {
-    background-color: lightskyblue;
+    background-color: #e6e69a;
 }
 
 .has-sub-menu:hover {
-    background-color: lightgray;
+    background-color: #999966;
 }
