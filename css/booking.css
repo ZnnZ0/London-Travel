@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    color: gray;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
 }
@@ -7,8 +8,6 @@ body {
 /*main-content*/
 #main-content {
     margin-top: 90px;
-    color: white;
-    background: linear-gradient(to right, black, lightgray);
 }
 
 #main-content h1 {
@@ -21,13 +20,22 @@ body {
     margin: 0px 0px 0px 10px;
 }
 
+#main-content-booking label {
+    font-size: 20px;
+}
+
+#main-content-booking input[type="text"] {
+    border: 0px;
+    border-bottom: 3px solid lightskyblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #main-content-booking select {
     width: 200px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 5px solid orange;
     font-size: 20px;
+    border: 0px;
+    border-bottom: 3px solid lightskyblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -35,24 +43,31 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
-#main-content-booking input {
-    width: 200px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 5px solid orange;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+.main-content-booking-member-detail {
+    margin-bottom: 5px;
 }
 
-#main-content-booking button {
+.main-content-booking-member-detail div {
+    display: flex;
+}
+
+.main-content-booking-member-detail label {
+    width: 200px;
+}
+
+.main-content-booking-member-detail input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+.main-content-booking-check input[type="submit"] {
     margin: 10px 0px 10px 0px;
     padding: 10px 5px 10px 5px;
     width: 200px;
     color: white;
     background-color: lightgray;
     border: 0px;
-    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 20px;
 }

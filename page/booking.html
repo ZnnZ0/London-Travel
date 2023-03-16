@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Booking</title>
+    <title>London Air > Booking</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/booking.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -18,6 +18,9 @@
             <ul id="upper-menu-list">
                 <li>
                     <a href="../index.html">Top</a>
+                </li>
+                <li>
+                    <a href="booking.html" id="booking">Booking</a>
                 </li>
                 <li class="has-sub-menu">
                     <span>English</span>
@@ -76,46 +79,72 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="booking.html">Booking</a>
-                </li>
             </ul>
         </nav>
     </header>
 
-    <div id="main-content">
+    <form action="booking_complete.html" method="GET" id="main-content">
         <h1>Booking</h1>
         <div id="main-content-booking">
+            <!--Tour-->
+            <h2>Tour</h2>
             <div>
-                <h2>Tour</h2>
-                <select id="mySelect_1day">
-                    <option value="option1">Harry Potter Tour</option>
-                    <option value="option2">History Tour</option>
-                    <option value="option3">Nature Tour</option>
+                <label for="select-tour">Tour:</label>
+                <select name="booking-tour" id="select-tour">
+                    <option value="harry" selected>Harry Potter Tour</option>
+                    <option value="history">History Tour</option>
+                    <option value="nature">Nature Tour</option>
+                </select>
+                <label for="select-type">Type:</label>
+                <select name="booking-tour" id="select-type">
+                    <option value="one" selected>One Day Tour</option>
+                    <option value="two">Two Day Tour</option>
                 </select>
             </div>
-            <div>
-                <h2>Member</h2>
-                <p>Baby(~6)</p>
-                <input type="text" value="0" required>
-                <p>Child(7~18)</p>
-                <input type="text" value="0" required>
-                <p>Adult(19~60)</p>
-                <input type="text" value="1" required>
-                <p>Adult(61~)</p>
-                <input type="text" value="0" required>
+            <!--Member-->
+            <h2>Member</h2>
+            <div id="main-content-booking-member">
+                <div class="main-content-booking-member-detail">
+                    <div>
+                        <label for="select-member-pre">Preschool(~4):</label>
+                        <input type="text" value="0" id="select-member-pre">
+                    </div>
+                </div>
+                <div class="main-content-booking-member-detail">
+                    <div>
+                        <label for="select-member-gra">Gradeschooler(5~12):</label>
+                        <input type="text" value="0" id="select-member-gra">
+                    </div>
+                </div>
+                <div class="main-content-booking-member-detail">
+                    <div>
+                        <label for="select-member-yad">Young Adult(13~21):</label>
+                        <input type="text" value="0" id="select-member-yad">
+                    </div>
+                </div>
+                <div class="main-content-booking-member-detail">
+                    <div>
+                        <label for="select-member-adt">Adult(22~):</label>
+                        <input type="text" value="0" id="select-member-adt">
+                    </div>
+                </div>
             </div>
             <div>
                 <h2>Date</h2>
-                <input type="date" id="date_1day">
+                <label for="select-day">Day:</label>
+                <input type="text" value="1" id="select-day">
+                <label for="select-year">Month:</label>
+                <input type="text" value="1" id="select-year">
             </div>
             <div>
                 <h2>Mail</h2>
                 <input type="text" id="email1" name="name" required>
             </div>
-            <button onclick="getSelectedValue_1day()">Check</button>
+            <div class="main-content-booking-check">
+                <input type="submit" value="Check">
+            </div>
         </div>
-    </div>
+    </form>
 
     <footer>
         <h1>London Travel</h1>

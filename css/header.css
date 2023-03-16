@@ -6,7 +6,7 @@ header {
 
     /*font*/
     color: white;
-    background-color: gray;
+    background-color: #996600;
     text-align: center;
 }
 
@@ -43,11 +43,6 @@ header {
     padding: 0px;
 }
 
-.upper-menu-list-top li {
-    /*font*/
-    background-color: lightgray;
-}
-
 /*main-menu*/
 #main-menu-list {
     /*form*/
@@ -82,11 +77,6 @@ header {
     padding: 0px;
 }
 
-.main-menu-list-top li {
-    /*font*/
-    background-color: lightgray;
-}
-
 /*sub-menu*/
 .sub-menu {
     /*form*/
@@ -94,10 +84,19 @@ header {
     list-style-type: none;
 }
 
+.sub-menu li {
+    background-color: #999966;
+    transition: all 0.3s ease;
+}
+
 .sub-menu-active {
     display: block;
 }
 
 .sub-menu-active li:hover {
-    opacity: 0.8;
+    background-color: #e6e69a;
+}
+
+.has-sub-menu:hover {
+    background-color: #999966;
 }

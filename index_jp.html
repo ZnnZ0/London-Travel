@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 
 <head>
     <title>London Travel Top</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="js/ready.js"></script>
     <script type="text/javascript" src="js/jump.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body onload="readySubList()">
+<body onload="ready()">
     <header>
         <nav id="upper-menu">
             <ul id="upper-menu-list">
                 <li>
-                    <a href="index.html">Top</a>
-                </li>
-                <li>
-                    <a href="page/booking.html">Booking</a>
+                    <a href="index_jp.html">トップ</a>
                 </li>
                 <li class="has-sub-menu">
-                    <span>English</span>
+                    <span>日本語</span>
                     <ul class="sub-menu upper-menu-list-top">
                         <li>
-                            <a href="index_fr.html">French</a>
+                            <a href="index.html">英語</a>
                         </li>
                         <li>
-                            <a href="index_jp.html">Japanese</a>
+                            <a href="index_fr.html">フランス語</a>
                         </li>
                     </ul>
                 </li>
@@ -37,34 +35,31 @@
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>
-                        <a href="#main-content-tourAbout-harryPotterTour">Harry Potter Tour</a>
-                    </span>
+                    <span>Harry Potter Tour</span>
                     <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-harryPotterTour">About</a></li>
                         <li><a href="page/harryPotterTour.html#main-content-oneDayTour">One Day Tour</a></li>
                         <li><a href="page/harryPotterTour.html#main-content-twoDayTour">Two Day Tour</a></li>
-                        <li><a href="#main-content-tourAbout-harryPotterTour">About</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>
-                        <a href="#main-content-tourAbout-historyTour">History Tour</a>
-                    </span>
+                    <span>History Tour</span>
                     <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-historyTour">About</a></li>
                         <li><a href="page/historyTour.html#main-content-oneDayTour">One Day Tour</a></li>
                         <li><a href="page/historyTour.html#main-content-twoDayTour">Two Day Tour</a></li>
-                        <li><a href="#main-content-tourAbout-historyTour">About</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>
-                        <a href="#main-content-tourAbout-natureTour">Nature Tour</a>
-                    </span>
+                    <span>Nature Tour</span>
                     <ul class="sub-menu main-menu-list-top">
+                        <li><a href="#main-content-tourAbout-natureTour">About</a></li>
                         <li><a href="page/natureTour.html#main-content-oneDayTour">One Day Tour</a></li>
                         <li><a href="page/natureTour.html#main-content-twoDayTour">Two Day Tour</a></li>
-                        <li><a href="#main-content-tourAbout-natureTour">About</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="">Booking</a>
                 </li>
             </ul>
         </nav>
@@ -72,28 +67,31 @@
 
     <div id="main">
         <nav id="main-content">
-            <div class="slide main-content-slide">
-                <img src="img/main/harryPotterTour_main.jpg">
-                <img src="img/main/historyTour_main.jpg">
-                <img src="img/main/natureTour_main.jpg">
-                <img src="img/main/harryPotterTour_main.jpg"> <!--滑らかにスライドするための重複画像-->
-            </div>
+            <ul id="main-content-list">
+                <li>
+                    <a href="page/harryPotterTour.html">
+                        <img src="img/harryPotterTour_main3.jpg" id="harryPotterTour_main">
+                    </a>
+                </li>
+                <li>
+                    <a href="page/historyTour.html">
+                        <img src="img/historyTour_main3.jpg" id="historyTour_main">
+                    </a>
+                </li>
+                <li>
+                    <a href="page/natureTour.html">
+                        <img src="img/natureTour_main3.jpg" id="natureTour_main">
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <!--Logo-->
-        <div class="logo">
-            <h1>LONDON&nbsp;TRAVEL</h1>
-        </div>
 
-        <!--Main-content-about-->
         <div id="main-content-about">
             <!--Harry Potter Tour-->
             <h1 id="main-content-tourAbout-harryPotterTour">Harry Potter Tour</h1>
             <div class="main-content-tourAbout">
-                <div class="slide main-content-tourAbout-slide">
-                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
-                    <img src="img/harryPotterTour/harryPotterTour_KingsCrossStation.jpg">
-                    <img src="img/harryPotterTour/harryPotterTour_LeadenhallMarket.jpg">
-                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
+                <div>
+                    <img src="img/harryPotterTour_main1.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -124,11 +122,8 @@
             <!--History Tour-->
             <h1 id="main-content-tourAbout-historyTour">History Tour</h1>
             <div class="main-content-tourAbout">
-                <div class="slide main-content-tourAbout-slide">
-                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
-                    <img src="img/historyTour/historyTour_BuckinghamPalace.jpg">
-                    <img src="img/historyTour/historyTour_AfternoonTea.jpg">
-                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
+                <div>
+                    <img src="img/historyTour_main1.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -161,11 +156,8 @@
             <!--Nature Tour-->
             <h1 id="main-content-tourAbout-natureTour">Nature Tour</h1>
             <div class="main-content-tourAbout">
-                <div class="slide main-content-tourAbout-slide">
-                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg">
-                    <img src="img/natureTour/natureTour_GiantsCauseway.jpg">
-                    <img src="img/natureTour/natureTour_HydePark.jpg">
-                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg"> <!--滑らかにスライドするための重複画像-->
+                <div>
+                    <img src="img/natureTour_main1.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -173,13 +165,15 @@
                             Explore Britain's natural riches and unique cityscapes with fellow Harry Potter lovers!
                         </p>
                         <p>
-                            As you travel around the islands, you'll come into contact with nature and animal species.
+                            As you travel around the various islands of Britain, you will come into contact with many
+                            nature and animal species.
                         </p>
                         <p>
-                            During your trip you will also have the opportunity to try specialities of British nature.
+                            During your trip you will also have the opportunity to try some of the delicious
+                            specialities of British nature.
                         </p>
                         <p>
-                            With a expert guide on British nature, this is a tour you won't want
+                            With a guide who is proud to be an expert on British nature, this is a tour you won't want
                             to miss!
                         </p>
                     </div>
