@@ -43,11 +43,6 @@ header {
     padding: 0px;
 }
 
-.upper-menu-list-top li {
-    /*font*/
-    background-color: lightgray;
-}
-
 /*main-menu*/
 #main-menu-list {
     /*form*/
@@ -82,15 +77,6 @@ header {
     padding: 0px;
 }
 
-.main-menu-list-top li {
-    /*font*/
-    background-color: lightgray;
-}
-
-.has-sub-menu:hover {
-    background-color: rgb(143, 138, 138);
-}
-
 /*sub-menu*/
 .sub-menu {
     /*form*/
@@ -98,10 +84,19 @@ header {
     list-style-type: none;
 }
 
+.sub-menu li {
+    background-color: lightgray;
+    transition: all 0.3s ease;
+}
+
 .sub-menu-active {
     display: block;
 }
 
 .sub-menu-active li:hover {
-    opacity: 0.8;
+    background-color: lightskyblue;
+}
+
+.has-sub-menu:hover {
+    background-color: lightgray;
 }
