@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>London Air > Booking</title>
+    <title>London Air > Booking Check</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/booking.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -20,9 +20,6 @@
                 </li>
                 <li>
                     <a href="booking.html" id="booking">Booking</a>
-                </li>
-                <li>
-                    <a href="../index.html#main-content-cautions">Cautions</a>
                 </li>
                 <li class="has-sub-menu">
                     <span>English</span>
@@ -86,64 +83,25 @@
     </header>
 
     <form action="booking_check.html" method="GET" id="main-content">
-        <h1>Booking</h1>
+        <h1>Booking Check</h1>
         <div id="main-content-booking">
             <!--Tour-->
             <h2>Tour</h2>
-            <div>
-                <label for="select-tour">Tour:</label>
-                <select name="tour" id="select-tour">
-                    <option value="harry" selected>Harry Potter Tour</option>
-                    <option value="history">History Tour</option>
-                    <option value="nature">Nature Tour</option>
-                </select>
-                <label for="select-type">Type:</label>
-                <select name="type" id="select-type">
-                    <option value="one" selected>One Day Tour</option>
-                    <option value="two">Two Day Tour</option>
-                </select>
-            </div>
+            <p>Harry Potter Tour</p>
             <!--Member-->
             <h2>Member</h2>
-            <div id="main-content-booking-member">
-                <div class="main-content-booking-member-detail">
-                    <div>
-                        <label for="select-member-pre">Preschool(~4):</label>
-                        <input type="text" value="0" name="pre" id="select-member-pre">
-                    </div>
-                </div>
-                <div class="main-content-booking-member-detail">
-                    <div>
-                        <label for="select-member-gra">Gradeschooler(5~12):</label>
-                        <input type="text" value="0" name="gra" id="select-member-gra">
-                    </div>
-                </div>
-                <div class="main-content-booking-member-detail">
-                    <div>
-                        <label for="select-member-yad">Young Adult(13~21):</label>
-                        <input type="text" value="0" name="yad" id="select-member-yad">
-                    </div>
-                </div>
-                <div class="main-content-booking-member-detail">
-                    <div>
-                        <label for="select-member-adt">Adult(22~):</label>
-                        <input type="text" value="0" name="adt" id="select-member-adt">
-                    </div>
-                </div>
-            </div>
-            <div id="main-content-booking-date">
-                <h2>Date</h2>
-                <label for="select-day">Day:</label>
-                <input type="text" value="1" name="day" id="select-day">
-                <label for="select-year">Month:</label>
-                <input type="text" value="1" name="year" id="select-year">
-            </div>
-            <div>
-                <h2>Mail</h2>
-                <input type="text" name="mail" id="select-mail" required>
-            </div>
+            <p>Preschool(~4):0</p>
+            <p>Gradeschooler(5~12):0</p>
+            <p>Young Adult(13~21):0</p>
+            <p>Adult(22~):0</p>
+            <!--Date-->
+            <h2>Date</h2>
+            <p>25/03~26/03</p>
+            <!--Mail-->
+            <h2>Mail</h2>
+            <p>pgpp000@gmail.com</p>
             <div class="main-content-booking-check">
-                <input type="submit" value="Check">
+                <input type="button" value="Reserve">
             </div>
         </div>
     </form>
