@@ -1,13 +1,10 @@
 footer {
-    color: #999966;
+    color: #8B572A;
     background-color: white;
 }
 
 footer h1 {
     text-align: center;
-    font-style: italic;
-    color:#999966;
-    font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
 }
 
 footer p {
