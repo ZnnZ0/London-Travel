@@ -1,52 +1,26 @@
+/*COMMON*/
 body {
-    color: gray;
-    background-color: white;
+    /*box*/
+    margin: 0px 0px 0px 0px;
+
+    /*background*/
+    background-color: #ffffff;
+
+    /*font*/
+    color: #808080;
     font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
 }
 
-/*logo*/
-.logo {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-}
-
-.logo h1 {
-    position: relative;
-    display: inline-block;
-    color: #999966;
-}
-
-.logo h1:before,
-.logo h1:after {
-    content: "";
-    display: block;
-    width: 200px;
-    height: 4px;
-    border-top: 1px solid #996600;
-    border-bottom: 1px solid #996600;
-    position: absolute;
-    top: 50%;
-    margin-top: -2px;
-}
-
-.logo h1:before {
-    left: -224px;
-}
-
-.logo h1:after {
-    right: -224px;
-}
-
-/*slide*/
 .slide {
-    white-space: nowrap;
+    /*box*/
     overflow: hidden;
+
+    /*font*/
+    white-space: nowrap;
 }
 
 .slide> :first-child {
+    /*animation*/
     animation-name: slide;
     animation-duration: 30s;
     animation-delay: 0s;
@@ -54,10 +28,11 @@ body {
 }
 
 .slide img {
+    /*box*/
     width: inherit;
     height: inherit;
-    margin: -2px;
-    padding: 0px;
+    margin: -2px -2px -2px -2px;
+    padding: 0px 0px 0px 0px;
     border: none;
 }
 
@@ -79,83 +54,118 @@ body {
     }
 }
 
-/*main-content*/
+/*MAIN_CONTENT*/
 #main-content {
-    margin-top: 50px;
+    /*box*/
+    margin: 50px 0px 0px 0px;
 }
 
 .main-content-slide {
     width: 100%;
 }
 
-/*main-content-about*/
+/*MAIN_CONTENT_LOGO*/
+#main-content-logo {
+    /*box*/
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+
+    /*font*/
+    font-size: 30px;
+    text-align: center;
+}
+
+#main-content-logo h1,
+#main-content-logo h2 {
+    /*model*/
+    display: inline-block;
+    position: relative;
+
+    /*font*/
+    color: #999966;
+}
+
+#main-content-logo h1:before,
+#main-content-logo h1:after {
+    /*model*/
+    display: block;
+    position: absolute;
+    top: 50%;
+
+    /*box*/
+    width: 200px;
+    height: 4px;
+    margin: -2px 0px 0px 0px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #996600;
+
+    /*interface*/
+    content: "";
+}
+
+#main-content-logo h1:before {
+    /*model*/
+    left: -224px;
+}
+
+#main-content-logo h1:after {
+    /*model*/
+    right: -224px;
+}
+
+/*MAIN_CONTENT_ABOUT*/
 #main-content-about h1 {
-    margin: 0px;
+    /*box*/
+    margin: 0px 0px 0px 0px;
     padding: 100px 0px 5px 10px;
-    border-bottom: 2px solid gray;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #808080;
 }
 
 .main-content-tourAbout {
-    /*固定ヘッダによるアンカーリンクの位置調整*/
+    /*model*/
     display: flex;
     justify-content: flex-start;
 }
 
-.main-content-tourAbout button {
-    margin: 0px;
-    padding: 10px 5px 10px 5px;
-    width: 200px;
-    color: white;
-    background-color: lightgray;
-    border: 0px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.main-content-tourAbout button:hover {
-    opacity: 0.8;
-}
-
-.main-content-tourAbout-detail {
-    padding-left: 50px;
-}
-
-.main-content-tourAbout-detail-explain p {
-    font-size: 25px;
-}
-
 .main-content-tourAbout-slide {
+    /*box*/
     width: 500px;
 }
 
-.logo{
-    margin-top: 20px;
-	width:100%;
-	text-align:center;
+.main-content-tourAbout button {
+    /*box*/
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 5px 10px 5px;
+    border: 0px;
+
+    /*background*/
+    background-color: #999966;
+
+    /*font*/
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /*animation*/
+    transition: all 0.3s ease;
 }
-.logo h1{
-	position:relative;
-	display:inline-block;
-    color:#996633;
-    font-size: 60px;
+
+.main-content-tourAbout button:hover {
+    /*background*/
+    background-color: #e6e69a;
 }
-.logo h2{
-	position:relative;
-	display:inline-block;
-    color: 	 #CC9966;
-    font-size: 30px;
+
+.main-content-tourAbout-detail {
+    /*box*/
+    padding: 0px 0px 0px 50px;
 }
-.logo h1:before, .logo h1:after{
-	content:"";
-	display:block;
-	width:200px;
-	height:4px;
-	border-top:1px solid 	#CC9933;
-	border-bottom:1px solid #CC9933;
-	position:absolute;
-	top:50%;
-	margin-top:-2px;
+
+.main-content-tourAbout-detail-explain p {
+    /*font*/
+    font-size: 20px;
 }
-.logo h1:before{left:-224px;}
-.logo h1:after{right:-224px;}  
