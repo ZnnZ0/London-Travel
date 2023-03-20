@@ -23,6 +23,13 @@ var harryPotterTourExp_jp = {
     HarryPotterStudio: "ワーナーブラザース スタジオツアーロンドン-メイキング・オブ ・ハリー・ポッター（英語: Warner Bros. Studio Tour London – The Making of Harry Potter）は、イギリスの首都ロンドン近郊の町ワトフォードにあるワーナー・ブラザースリーブスデン・スタジオ内に設けられたウォークスルー型の展示施設。映画ハリー・ポッターシリーズで実際に使用されたセット、衣装、小道具などが展示されている。ツアーはJエリアから一度屋外へ出て次のKエリアに進むよう配置されており、これは実際のスタジオ配置に即したものとなっている。"
 };
 
+var harryPotterTourExp_fr = {
+    KingsCrossStation: "La gare de King's Cross est une gare ferroviaire située à Londres, en Angleterre. Les élèves de l'école de sorcellerie Poudlard montent à bord du Poudlard Express à partir des quais 9 et 3/4 à 11h00 le 1er septembre de chaque année. Pour accéder aux quais 9 et 3/4, il faut franchir le mur de clôture entre les quais 9 et 10.",
+    LeadenhallMarket: "Il a été utilisé pour représenter le quartier de Londres près du Chaudron Fuyant et de Diagon Alley dans le film Harry Potter et l'école des sorciers (2001).",
+    LondonMillenniumFootbridge: "Ce pont apparaît dans la première partie du film de la série Harry Potter, Harry Potter et le Prince de Sang-Mêlé, et est détruit par les Mangemorts.",
+    HarryPotterStudio: "The Making of Harry Potter est une exposition et une visite de studio à Leavesden, Hertfordshire, Royaume-Uni, appartenant à Warner Bros. et gérée par sa division Studio Tours. Il est situé dans les studios Warner Bros. Leavesden, à Watford, dans le sud-ouest du Hertfordshire, et abrite une exposition permanente de costumes, d'accessoires et de décors authentiques utilisés dans la production des films Harry Potter, ainsi que les coulisses de la production d'effets visuels. La visite se déroule dans les studios J et K, qui ont été spécialement construits pour l'attraction, et est séparée des installations de production du studio."
+};
+
 var historyTourSrc = {
     WestminsterAbbey: "../img/historyTour/historyTour_WestminsterAbbey.jpg",
     BuckinghamPalace: "../img/historyTour/historyTour_BuckinghamPalace.jpg",
