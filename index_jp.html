@@ -6,18 +6,25 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script type="text/javascript" src="js/ready.js"></script>
     <script type="text/javascript" src="js/jump.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body onload="ready()">
+<body onload="readySubList()">
+    <!--HEADER START-->
     <header>
+        <!--UPPER_MENU START-->
         <nav id="upper-menu">
             <ul id="upper-menu-list">
                 <li>
                     <a href="index_jp.html">トップ</a>
+                </li>
+                <li>
+                    <a href="page/booking.html">予約</a>
+                </li>
+                <li>
+                    <a href="#main-content-cautions">注意</a>
                 </li>
                 <li class="has-sub-menu">
                     <span>日本語</span>
@@ -32,74 +39,75 @@
                 </li>
             </ul>
         </nav>
+        <!--UPPER_MENU END-->
+        <!--MAIN_MENU START-->
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>Harry Potter Tour</span>
+                    <span>ハリーポッターツアー</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-harryPotterTour">About</a></li>
-                        <li><a href="page/harryPotterTour_jp.html#main-content-oneDayTour">One Day Tour</a></li>
-                        <li><a href="page/harryPotterTour_jp.html#main-content-twoDayTour">Two Day Tour</a></li>
+                        <li><a href="page/harryPotterTour_jp.html#main-content-oneDayTour">1日ツアー</a></li>
+                        <li><a href="page/harryPotterTour_jp.html#main-content-twoDayTour">2日ツアー</a></li>
+                        <li><a href="#main-content-tourAbout-harryPotterTour">概要</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>History Tour</span>
+                    <span>歴史ツアー</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-historyTour">About</a></li>
-                        <li><a href="page/historyTour_jp.html#main-content-oneDayTour">One Day Tour</a></li>
-                        <li><a href="page/historyTour_jp.html#main-content-twoDayTour">Two Day Tour</a></li>
+                        <li><a href="page/historyTour_jp.html#main-content-oneDayTour">1日ツアー</a></li>
+                        <li><a href="page/historyTour_jp.html#main-content-twoDayTour">2日ツアー</a></li>
+                        <li><a href="#main-content-tourAbout-historyTour">概要</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>Nature Tour</span>
+                    <span>自然ツアー</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-natureTour">About</a></li>
-                        <li><a href="page/natureTour_jp.html#main-content-oneDayTour">One Day Tour</a></li>
-                        <li><a href="page/natureTour_jp.html#main-content-twoDayTour">Two Day Tour</a></li>
+                        <li><a href="page/natureTour_jp.html#main-content-oneDayTour">1日ツアー</a></li>
+                        <li><a href="page/natureTour_jp.html#main-content-twoDayTour">2日ツアー</a></li>
+                        <li><a href="#main-content-tourAbout-natureTour">概要</a></li>
                     </ul>
-                </li>
-                <li>
-                    <a href="">Booking</a>
                 </li>
             </ul>
         </nav>
+        <!--MAIN_MENU END-->
     </header>
-
+    <!--HEADER END-->
+    <!--MAIN START-->
     <div id="main">
+        <!--MAIN_CONTENT START-->
         <nav id="main-content">
-            <ul id="main-content-list">
-                <li>
-                    <a href="page/harryPotterTour.html">
-                        <img src="img/harryPotterTour_main3.jpg" id="harryPotterTour_main">
-                    </a>
-                </li>
-                <li>
-                    <a href="page/historyTour.html">
-                        <img src="img/historyTour_main3.jpg" id="historyTour_main">
-                    </a>
-                </li>
-                <li>
-                    <a href="page/natureTour.html">
-                        <img src="img/natureTour_main3.jpg" id="natureTour_main">
-                    </a>
-                </li>
-            </ul>
+            <div class="slide main-content-slide">
+                <img src="img/main/harryPotterTour_main.jpg">
+                <img src="img/main/historyTour_main.jpg">
+                <img src="img/main/natureTour_main.jpg">
+                <img src="img/main/harryPotterTour_main.jpg">
+            </div>
         </nav>
-
+        <!--MAIN_CONTENT END-->
+        <!--MAIN_CONTENT_LOGO START-->
+        <div id="main-content-logo">
+            <h1>LONDON&nbsp;TRAVEL</h1><br>
+            <h2>3つのツアー、簡単な手続き</h2>
+        </div>
+        <!--MAIN_CONTENT_LOGO END-->
+        <!--MAIN_CONTENT_ABOUT START-->
         <div id="main-content-about">
-            <!--Harry Potter Tour-->
+            <!--HARRY_POTTER_TOUR START-->
             <h1 id="main-content-tourAbout-harryPotterTour">Harry Potter Tour</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/harryPotterTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_KingsCrossStation.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_LeadenhallMarket.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
                         <p>
-                            This tour invites you into the wonderful world of Harry Potter.
+                            このツアーはあなたを素晴らしいハリーポッターの世界へ誘います。
                         </p>
                         <p>
-                            Not only the popular Harriott Studios, but also the outside filming locations with a great
+                            ハリーポッタースタジオだけではなく、but also the outside filming locations with a great
                             guide.
                         </p>
                         <p>
@@ -119,11 +127,15 @@
                     </p>
                 </div>
             </div>
-            <!--History Tour-->
+            <!--HARRY_POTTER_TOUR END-->
+            <!--HISTORY_TOUR START-->
             <h1 id="main-content-tourAbout-historyTour">History Tour</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/historyTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
+                    <img src="img/historyTour/historyTour_BuckinghamPalace.jpg">
+                    <img src="img/historyTour/historyTour_AfternoonTea.jpg">
+                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -153,11 +165,15 @@
                     </p>
                 </div>
             </div>
-            <!--Nature Tour-->
+            <!--HISTORY_TOUR END-->
+            <!--NATURE_TOUR START-->
             <h1 id="main-content-tourAbout-natureTour">Nature Tour</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/natureTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg">
+                    <img src="img/natureTour/natureTour_GiantsCauseway.jpg">
+                    <img src="img/natureTour/natureTour_HydePark.jpg">
+                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg"> <!--滑らかにスライドするための重複画像-->
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -188,13 +204,48 @@
                     </p>
                 </div>
             </div>
+            <!--NATURE_TOUR END-->
         </div>
+        <!--MAIN_CONTENT_ABOUT END-->
+        <!--MAIN_CONTENT_CAUTIONS START-->
+        <div id="main-content-cautions">
+            <ol>
+                <li>
+                    Immigration procedures are strict in the United Kingdom. Have your documents ready for what you will
+                    be asked for.Your return ticket, Location of hotel, where you will be staying, Travel dates if you
+                    have them.
+                </li>
+                <li>
+                    Take a water repellent jacket with hood. As in the mountains, the weather can change quickly and
+                    easily in a short period of time.
+                </li>
+                <li>
+                    If the receipt says "service charge not included", a gratuity is required. You can leave a tip of
+                    about 10% of the fee.
+                </li>
+                <li>
+                    Smoking is not permitted in train stations, on platforms, or at bus stops in the United Kingdom.
+                    Furthermore, please note that in some areas outdoor drinking is prohibited.
+                </li>
+                <li>
+                    British food is notorious for being bad. You should know some British dishes are served with their
+                    own salt and pepper or sauces.
+                </li>
+                <li>
+                    Restaurants are extremely expensive, so if you want to keep prices low, you should eat at pubs and
+                    markets rather than restaurants.
+                </li>
+            </ol>
+        </div>
+        <!--MAIN_CONTENT_CAUTIONS END-->
     </div>
-
+    <!--MAIN END-->
+    <!--FOOTER START-->
     <footer>
         <h1>London Travel</h1>
         <p>copyright© <span>London Travel</span> All right reserved.</p>
     </footer>
+    <!--FOOTER END-->
 </body>
 
 </html>

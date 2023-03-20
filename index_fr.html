@@ -6,18 +6,25 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script type="text/javascript" src="js/ready.js"></script>
     <script type="text/javascript" src="js/jump.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body onload="ready()">
+<body onload="readySubList()">
+    <!--HEADER START-->
     <header>
+        <!--UPPER_MENU START-->
         <nav id="upper-menu">
             <ul id="upper-menu-list">
                 <li>
                     <a href="index_fr.html">Top</a>
+                </li>
+                <li>
+                    <a href="page/booking.html">Réservation</a>
+                </li>
+                <li>
+                    <a href="#main-content-cautions">Attention</a>
                 </li>
                 <li class="has-sub-menu">
                     <span>Français</span>
@@ -32,66 +39,67 @@
                 </li>
             </ul>
         </nav>
+        <!--UPPER_MENU END-->
+        <!--MAIN_MENU START-->
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
                     <span>Harry Potter Tournée</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-harryPotterTour">Aperçu</a></li>
                         <li><a href="page/harryPotterTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
                         <li><a href="page/harryPotterTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="#main-content-tourAbout-harryPotterTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
                     <span>L'histoire Tournée</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-historyTour">Aperçu</a></li>
                         <li><a href="page/historyTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
                         <li><a href="page/historyTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="#main-content-tourAbout-historyTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
                     <span>Nature Tournée</span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="#main-content-tourAbout-natureTour">Aperçu</a></li>
                         <li><a href="page/natureTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
                         <li><a href="page/natureTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="#main-content-tourAbout-natureTour">Aperçu</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="">Réservation</a>
-                </li>
             </ul>
         </nav>
+        <!--MAIN_MENU END-->
     </header>
-
+    <!--HEADER END-->
+    <!--MAIN START-->
     <div id="main">
+        <!--MAIN_CONTENT START-->
         <nav id="main-content">
-            <ul id="main-content-list">
-                <li>
-                    <a href="page/harryPotterTour.html">
-                        <img src="img/harryPotterTour_main3.jpg" id="harryPotterTour_main">
-                    </a>
-                </li>
-                <li>
-                    <a href="page/historyTour.html">
-                        <img src="img/historyTour_main3.jpg" id="historyTour_main">
-                    </a>
-                </li>
-                <li>
-                    <a href="page/natureTour.html">
-                        <img src="img/natureTour_main3.jpg" id="natureTour_main">
-                    </a>
-                </li>
-            </ul>
+            <div class="slide main-content-slide">
+                <img src="img/main/harryPotterTour_main.jpg">
+                <img src="img/main/historyTour_main.jpg">
+                <img src="img/main/natureTour_main.jpg">
+                <img src="img/main/harryPotterTour_main.jpg">
+            </div>
         </nav>
-
+        <!--MAIN_CONTENT END-->
+        <!--MAIN_CONTENT_LOGO START-->
+        <div id="main-content-logo">
+            <h1>LONDON&nbsp;TRAVEL</h1><br>
+            <h2>Trois circuits, un choix facile</h2>
+        </div>
+        <!--MAIN_CONTENT_LOGO END-->
+        <!--MAIN_CONTENT_ABOUT START-->
         <div id="main-content-about">
-            <!--Harry Potter Tour-->
+            <!--HARRY_POTTER_TOUR START-->
             <h1 id="main-content-tourAbout-harryPotterTour">Harry Potter Tournée</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/harryPotterTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_KingsCrossStation.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_LeadenhallMarket.jpg">
+                    <img src="img/harryPotterTour/harryPotterTour_HarryPotterStudio.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -120,11 +128,15 @@
                     </p>
                 </div>
             </div>
-            <!--History Tour-->
+            <!--HARRY_POTTER_TOUR END-->
+            <!--HISTORY_TOUR START-->
             <h1 id="main-content-tourAbout-historyTour">L'histoire Tournée</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/historyTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
+                    <img src="img/historyTour/historyTour_BuckinghamPalace.jpg">
+                    <img src="img/historyTour/historyTour_AfternoonTea.jpg">
+                    <img src="img/historyTour/historyTour_WestminsterAbbey.jpg">
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -155,11 +167,15 @@
                     </p>
                 </div>
             </div>
-            <!--Nature Tour-->
+            <!--HISTORY_TOUR END-->
+            <!--NATURE_TOUR START-->
             <h1 id="main-content-tourAbout-natureTour">Nature Tournée</h1>
             <div class="main-content-tourAbout">
-                <div>
-                    <img src="img/natureTour_main1.jpg">
+                <div class="slide main-content-tourAbout-slide">
+                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg">
+                    <img src="img/natureTour/natureTour_GiantsCauseway.jpg">
+                    <img src="img/natureTour/natureTour_HydePark.jpg">
+                    <img src="img/natureTour/natureTour_BirlingGapAndTheSevenSisters.jpg"> <!--滑らかにスライドするための重複画像-->
                 </div>
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
@@ -192,13 +208,48 @@
                     </p>
                 </div>
             </div>
+            <!--NATURE_TOUR END-->
         </div>
+        <!--MAIN_CONTENT_ABOUT END-->
+        <!--MAIN_CONTENT_CAUTIONS START-->
+        <div id="main-content-cautions">
+            <ol>
+                <li>
+                    Les procédures d'immigration sont strictes au Royaume-Uni. Préparez vos documents pour ce qui vous
+                    sera demandé. Votre billet de retour, l'emplacement de l'hôtel, l'endroit où vous séjournerez, les
+                    dates de voyage si vous les avez.
+                </li>
+                <li>
+                    Emportez une veste déperlante avec capuche. Comme en montagne, le temps peut changer rapidement et
+                    facilement en peu de temps.
+                </li>
+                <li>
+                    Si le ticket de caisse indique "frais de service non compris", un pourboire est exigé. Vous pouvez
+                    laisser un pourboire d'environ 10 % du prix.
+                </li>
+                <li>
+                    Au Royaume-Uni, il est interdit de fumer dans les gares, sur les quais et aux arrêts de bus. En
+                    outre, veuillez noter que dans certaines zones, il est interdit de boire à l'extérieur.
+                </li>
+                <li>
+                    La nourriture britannique est réputée pour être mauvaise. Il faut savoir que certains plats
+                    britanniques sont servis avec leur propre sel, poivre ou sauce.
+                </li>
+                <li>
+                    Les restaurants sont extrêmement chers, donc si vous voulez maintenir des prix bas, vous devriez
+                    manger dans les pubs et les marchés plutôt que dans les restaurants.
+                </li>
+            </ol>
+        </div>
+        <!--MAIN_CONTENT_CAUTIONS END-->
     </div>
-
+    <!--MAIN END-->
+    <!--FOOTER START-->
     <footer>
         <h1>London Travel</h1>
         <p>copyright© <span>London Travel</span> All right reserved.</p>
     </footer>
+    <!--FOOTER END-->
 </body>
 
 </html>

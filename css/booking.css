@@ -1,78 +1,127 @@
+/*COMMON*/
 body {
-    color: gray;
-    background-color: white;
+    /*box*/
+    margin: 0px 0px 0px 0px;
+
+    /*background*/
+    background-color: #ffffff;
+
+    /*font*/
+    color: #808080;
     font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
 }
 
-/*main-content*/
+/*MAIN_CONTENT*/
 #main-content {
-    margin-top: 90px;
+    /*box*/
+    margin: 90px 0px 0px 0px;
 }
 
 #main-content h1 {
-    margin: 0px;
-    padding-top: 10px;
+    /*box*/
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+
+    /*font*/
+    color: #8B572A;
     text-align: center;
 }
 
 #main-content-booking {
+    /*box*/
     margin: 0px 0px 0px 10px;
 }
 
+#main-content-booking h2 {
+    /*font*/
+    color: #8B572A;
+}
+
 #main-content-booking label {
+    /*font*/
     font-size: 20px;
 }
 
 #main-content-booking input[type="text"] {
-    border: 0px;
-    border-bottom: 3px solid #999966;
+    /*box*/
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #8B572A;
+
+    /*font*/
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #main-content-booking select {
+    /*box*/
     width: 200px;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: #8B572A;
+
+    /*font*/
     font-size: 20px;
-    border: 0px;
-    border-bottom: 3px solid #999966;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #main-content-booking option {
+    /*box*/
     padding: 10px 0px 10px 0px;
 }
 
 .main-content-booking-member-detail {
-    margin-bottom: 5px;
+    /*box*/
+    margin: 0px 0px 5px 0px;
 }
 
 .main-content-booking-member-detail div {
+    /*model*/
     display: flex;
 }
 
 .main-content-booking-member-detail label {
+    /*box*/
     width: 200px;
 }
 
 .main-content-booking-member-detail input[type="text"] {
+    /*box*/
     width: 50px;
+
+    /*font*/
     text-align: center;
 }
 
 #main-content-booking-date input[type="text"] {
+    /*box*/
     width: 50px;
+
+    /*font*/
     text-align: center;
 }
 
 .main-content-booking-check input[type="submit"] {
+    /*box*/
+    width: 200px;
     margin: 10px 0px 10px 0px;
     padding: 10px 5px 10px 5px;
-    width: 200px;
-    color: white;
-    background-color: lightgray;
-    border: 0px;
+    border-width: 0px 0px 0px 0px;
+
+    /*background*/
+    background-color: #999966;
+
+    /*font*/
+    color: #ffffff;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 20px;
+
+    /*animation*/
+    transition: all 0.3s ease;
+}
+
+.main-content-booking-check input[type="submit"]:hover {
+    /*background*/
+    background-color: #e6e69a;
 }
