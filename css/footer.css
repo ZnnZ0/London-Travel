@@ -1,17 +1,23 @@
 footer {
-    color: #8B572A;
-    background-color: white;
+    /*background*/
+    background-color: #ffffff;
+
+    /*font*/
+    color: #999966;
 }
 
 footer h1 {
+    /*font*/
     text-align: center;
 }
 
 footer p {
-    text-align: center;
+    /*font*/
     font-size: 15px;
+    text-align: center;
 }
 
 footer span {
+    /*font*/
     font-weight: bold;
 }
