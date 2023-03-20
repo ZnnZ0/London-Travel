@@ -41,6 +41,15 @@ var historyTourExp = {
     CamdenMarket: "Camden Market is a market held in Camden Town, London. It consists of several large markets. Small local food markets have been established since the early 20th century. There are mainly clothes, souvenirs and handicrafts. There are also many furniture, cosmetics and stalls."
 };
 
+var historyTourExp_fr = {
+    WestminsterAbbey: "L'abbaye de Westminster est une église de l'Église d'Angleterre située à Westminster,Londres, Angleterre. Elle abrite l'église du monastère de St. Peter. Des cérémonies royales telles que les couronnements ont lieu ici, et de nombreux rois, reines et hommes politiques successifs sont enterrés sur les murs et les sols à l'intérieur.",
+    BuckinghamPalace: "Buckingham Palace est un palais situé à Londres, en Angleterre. Il est célèbre pour permettre d'assister à la cérémonie de changement des gardes royaux chargés de la garde du périmètre. Sur le parvis du palais se trouve le Victoria Memorial, au-delà duquel se trouve le Mall, qui mène à St. James' Park et à Trafalgar Square, le long d'une luxuriante rangée de sycomores.",
+    AfternoonTea: "Afternoon tea est une coutume de consommation de thé originaire d'Angleterre. Il s'agit d'un goûter au cours duquel des repas légers et des sucreries sont consommés avec du thé noir vers 16-17 heures. Traditionnellement, les collations légères sont servies avec des sandwichs au concombre, des salades d'œufs, du saumon fumé, du fromage et de petits sandwichs sans croûte avec du rosbif.",
+    LondonEye: "Le London Eye est une grande roue située à Londres, en Angleterre, dans les Jubilee Gardens sur la rive sud (Lambeth), le long de la Tamise. Le site adjacent est le County Hall, qui fait face au ministère de la Défense situé sur la rive opposée à Westminster.",
+    LondonTower: "La Tour de Londres est une forteresse médiévale construite dans l'East End, sur les rives de la Tamise, à Londres, en Angleterre. Officiellement appelée Palais et Forteresse de Sa Majesté dans la Tour de Londres, elle est encore utilisée aujourd'hui comme entrepôt pour les armes de cérémonie et comme lieu de culte.À Londres, le simple fait de l'appeler la tour fait référence à cet endroit.Le Cullinan, l'un des plus gros diamants taillés au monde, y est entreposé.",
+    CamdenMarket: "Camden Market est un marché qui se tient à Camden Town, à Londres. Il se compose de plusieurs grands marchés. De petits marchés alimentaires locaux ont été créés depuis le début du 20e siècle. On y trouve principalement des vêtements, des souvenirs et de l'artisanat. Il y a aussi beaucoup de meubles, de cosmétiques et d'étals."
+};
+
 var natureTourSrc = {
     Stonehenge: "../img/natureTour/natureTour_Stonehenge.jpg",
     GiantsCauseway: "../img/natureTour/natureTour_GiantsCauseway.jpg",
@@ -97,6 +106,28 @@ function changeView_jp(tour, place, changeNum) {
         case "harry": newExp = harryPotterTourExp_jp[place]; break;
         case "history": newExp = historyTourExp_jp[place]; break;
         case "nature": newExp = natureTourExp_jp[place]; break;
+    }
+
+    img.src = newImg;
+    exp.textContent = newExp;
+}
+
+function changeView_fr(tour, place, changeNum) {
+    var img = document.getElementById("main-content-schedule-left-imgArea" + changeNum);
+    var exp = document.getElementById("main-content-schedule-right-expArea" + changeNum);
+    var newImg;
+    var newExp;
+
+    switch (tour) {
+        case "harry": newImg = harryPotterTourSrc[place]; break;
+        case "history": newImg = historyTourSrc[place]; break;
+        case "nature": newImg = natureTourSrc[place]; break;
+    }
+
+    switch (tour) {
+        case "harry": newExp = harryPotterTourExp_fr[place]; break;
+        case "history": newExp = historyTourExp_fr[place]; break;
+        case "nature": newExp = natureTourExp_fr[place]; break;
     }
 
     img.src = newImg;
