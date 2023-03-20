@@ -48,6 +48,15 @@ var historyTourExp = {
     CamdenMarket: "Camden Market is a market held in Camden Town, London. It consists of several large markets. Small local food markets have been established since the early 20th century. There are mainly clothes, souvenirs and handicrafts. There are also many furniture, cosmetics and stalls."
 };
 
+
+var historyTourExp_jp = {
+    WestminsterAbbey: "ウェストミンスター寺院は、英国ロンドンのウェストミンスターにある英国国教会です。 聖ペテロ修道院教会。 戴冠式などの王族の儀式がここで行われ、内壁や床には歴代の国王や王妃、政治家が多数埋葬されています。",
+    BuckinghamPalace: "バッキンガム宮殿は、イギリスのロンドンにある宮殿です。 周囲の警備を担当する近衛兵の交代式が見られることで有名です。 宮殿の正面広場にはビクトリア記念館があり、その向こうには、セント ジェームズ パークとトラファルガー広場につながるザ モールが、青々としたスズカケノキの並木道に沿って位置しています。",
+    AfternoonTea: "アフタヌーンティーとはイギリス発祥のお茶を飲む習慣で、午後4時～5時頃に軽食やスイーツを紅茶とともに食べるお茶会です。 キュウリのサンドイッチ、卵のサラダ、スモーク サーモン、チーズ、ロースト ビーフを使った小さなクラストレス サンドイッチを添えて。",
+    LondonEye: "ロンドン アイは、イギリスのロンドンにある観覧車で、テムズ川沿いのサウス バンク (ランベス) のジュビリー ガーデンにあります。 隣接する敷地はカウンティ ホールで、ウェストミンスターの対岸に位置する国防省に面しています。",
+    LondonTower: "ロンドン タワーは、イングランド、ロンドンのテムズ川のほとり、イースト エンドに建てられた中世の要塞です。 正式にはロンドン塔の女王陛下の宮殿および要塞と呼ばれ、今日でも儀式用の武器の保管庫として、また礼拝の場として使用されています。ロンドンでは、単に塔と呼ぶのはこの場所を指します。 世界最大のカットダイヤモンドがここに保管されています。",
+    CamdenMarket: "カムデン マーケットは、ロンドンのカムデン タウンで開催されるマーケットです。 いくつかの大きな市場で構成されています。 20 世紀初頭から小さなローカル フード マーケットが設立されました。 主に服、お土産、手工芸品があります。 家具やコスメ、屋台もたくさんあります。"
+
 var historyTourExp_fr = {
     WestminsterAbbey: "L'abbaye de Westminster est une église de l'Église d'Angleterre située à Westminster,Londres, Angleterre. Elle abrite l'église du monastère de St. Peter. Des cérémonies royales telles que les couronnements ont lieu ici, et de nombreux rois, reines et hommes politiques successifs sont enterrés sur les murs et les sols à l'intérieur.",
     BuckinghamPalace: "Buckingham Palace est un palais situé à Londres, en Angleterre. Il est célèbre pour permettre d'assister à la cérémonie de changement des gardes royaux chargés de la garde du périmètre. Sur le parvis du palais se trouve le Victoria Memorial, au-delà duquel se trouve le Mall, qui mène à St. James' Park et à Trafalgar Square, le long d'une luxuriante rangée de sycomores.",
@@ -75,6 +84,7 @@ var natureTourExp = {
     TheOrkneyIslands: "The Neolithic Center of the Orkney Islands is a UNESCO World Heritage Site in Scotland, United Kingdom. The oldest surviving stone dwellings in northern Europe are those at Knap of Howar on Papa Westray, dating from around 3500 to 3100 BC."
 };
 
+
 var natureTourExp_fr = {
     Stonehenge: "Une structure mégalithique qui apparaît soudainement dans les plaines de Salisbury, dans le sud de l'Angleterre. Stonehenge aurait été construit en trois périodes, d'environ 3000 avant J.-C. à 1500 avant J.-C.",
     GiantsCauseway: "La Chaussée des Géants est une zone de 40 000 piliers de pierre formés par l'activité volcanique en Irlande du Nord, en Angleterre. Elle se trouve sur le littoral, à 2 km au nord de Bushmills, dans le comté d'Antrim. Elle a été déclarée site du patrimoine mondial par l'UNESCO en 1986 et réserve naturelle l'année suivante par le ministère de l'environnement d'Irlande du Nord.",
@@ -82,6 +92,14 @@ var natureTourExp_fr = {
     BirlingGapAndTheSevenSisters: "Birling Gap et les Seven Sisters sont des falaises maritimes de craie crétacée situées dans l'East Sussex, dans le sud de l'Angleterre. Le nom dérive de l'apparence des falaises blanches formées par le raclage de collines légèrement ondulées.",
     LochNess: "Le Loch Ness est le plus grand loch (lac) d'eau douce du Royaume-Uni, situé dans les Highlands, au nord de l'Écosse. On dit qu'il y a un animal non identifié appelé Nessie dans le Loch Ness. Par conséquent, il y a beaucoup de touristes tels que les clubs occultes, et il y a beaucoup de vidéos et de photographies qui prétendent montrer Nessie.",
     TheOrkneyIslands: "Le centre néolithique des îles Orcades est un site du patrimoine mondial de l'UNESCO situé en Écosse, au Royaume-Uni. Les plus anciennes habitations en pierre conservées en Europe du Nord sont celles de Knap of Howar sur Papa Westray, datant d'environ 3500 à 3100 av."
+
+var natureTourExp_jp = {
+    Stonehenge: "イングランド南部ソールズベリーの平原に突如現れる巨石建造物。 ストーンヘンジは、紀元前 3000 年頃の 3 つの期間にわたって建設されたと考えられています。 紀元前1500年まで",
+    GiantsCauseway: "ジャイアンツ コーズウェイは、イギリスの北アイルランドにある火山活動によって形成された 40,000 本の石柱のエリアです。 アントリム州ブッシュミルズの北 2 km の海岸線にあります。 1986 年にユネスコによって世界遺産に登録され、翌年には北アイルランド環境省によって自然保護区に指定されました。",
+    HydePark: "ハイドパークは、ウェストミンスターからケンジントンまでのロンドン中心部にある公園です。 ロンドンにある 8 つの王立公園の 1 つ。 総面積は 142 ヘクタール (350 エーカー) で、1851 年に世界初の万国博覧会であるロンドン万国博覧会が開催されました。",
+    BirlingGapAndTheSevenSisters: "バーリング ギャップとセブン シスターズは、イングランド南部のイースト サセックスにある白亜紀のチョークの海食崖です。 なだらかな起伏のある丘陵を削り取ってできた白い断崖の姿がその名の由来。",
+    LochNess: "ネス湖は、スコットランド北部のハイランド地方に位置する、英国最大の淡水湖 (湖) です。 ネス湖にはネッシーという正体不明の動物がいると言われています。そのため、オカルトクラブなどの観光客も多く、ネッシーが写っていると主張する動画や写真が数多く出回っています。",
+    TheOrkneyIslands: "オークニー諸島の新石器時代の中心部は、イギリスのスコットランドにあるユネスコの世界遺産です。 北ヨーロッパで現存する最古の石造りの住居は、紀元前 3500 年頃から 3100 年頃にさかのぼるパパ ウェストレイのハワーのナップにあるものです。"
 };
 
 function changeView(tour, place, changeNum) {
