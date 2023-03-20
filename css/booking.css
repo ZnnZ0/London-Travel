@@ -101,7 +101,7 @@ body {
     text-align: center;
 }
 
-.main-content-booking-check input[type="submit"] {
+.main-content-booking-check input[type="button"] {
     /*box*/
     width: 200px;
     margin: 10px 0px 10px 0px;
@@ -121,7 +121,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.main-content-booking-check input[type="submit"]:hover {
+.main-content-booking-check input[type="button"]:hover {
     /*background*/
     background-color: #e6e69a;
 }
