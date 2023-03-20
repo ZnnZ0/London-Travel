@@ -3,7 +3,7 @@
 
 <head>
     <title>London Air > Booking</title>
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/header_jp.css">
     <link rel="stylesheet" href="../css/booking.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script type="text/javascript" src="../js/jump.js"></script>
@@ -18,22 +18,22 @@
         <nav id="upper-menu">
             <ul id="upper-menu-list">
                 <li>
-                    <a href="../index.html">Top</a>
+                    <a href="../index_jp.html">トップ</a>
                 </li>
                 <li>
-                    <a href="booking.html" id="booking">Booking</a>
+                    <a href="booking_jp.html">予約</a>
                 </li>
                 <li>
-                    <a href="../index.html#main-content-cautions">Cautions</a>
+                    <a href="../index_jp.html#main-content-cautions">注意</a>
                 </li>
                 <li class="has-sub-menu">
-                    <span>English</span>
+                    <span>日本語</span>
                     <ul class="sub-menu upper-menu-list-top">
                         <li>
-                            <a href="">Français</a>
+                            <a href="booking.html">英語</a>
                         </li>
                         <li>
-                            <a href="">Japanese</a>
+                            <a href="booking_fr.html">フランス語</a>
                         </li>
                     </ul>
                 </li>
@@ -44,45 +44,33 @@
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>Harry Potter Tour</span>
+                    <span>
+                        <a href="../index_jp.html#main-content-tourAbout-harryPotterTour">ハリーポッターツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="harryPotterTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="harryPotterTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-harryPotterTour">About</a>
-                        </li>
+                        <li><a href="harryPotterTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
+                        <li><a href="harryPotterTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
+                        <li><a href="../index_jp.html#main-content-tourAbout-harryPotterTour">概要</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>History Tour</span>
+                    <span>
+                        <a href="../index_jp.html#main-content-tourAbout-historyTour">歴史ツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="historyTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="historyTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-historyTour">About</a>
-                        </li>
+                        <li><a href="historyTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
+                        <li><a href="historyTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
+                        <li><a href="../index_jp.html#main-content-tourAbout-historyTour">概要</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>Nature Tour</span>
+                    <span>
+                        <a href="../index_jp.html#main-content-tourAbout-natureTour">自然ツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="natureTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="natureTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-natureTour">About</a>
-                        </li>
+                        <li><a href="natureTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
+                        <li><a href="natureTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
+                        <li><a href="../index_jp.html#main-content-tourAbout-natureTour">概要</a></li>
                     </ul>
                 </li>
             </ul>
@@ -92,64 +80,64 @@
     <!--HEADER END-->
     <!--BOOKING START-->
     <form action="booking_check.html" method="GET" id="main-content">
-        <h1>Booking</h1>
+        <h1>予約</h1>
         <div id="main-content-booking">
             <!--Tour-->
-            <h2>Tour</h2>
+            <h2>ツアー</h2>
             <div>
-                <label for="select-tour">Tour:</label>
+                <label for="select-tour">ツアー:</label>
                 <select name="tour" id="select-tour">
-                    <option value="harry" selected>Harry Potter Tour</option>
-                    <option value="history">History Tour</option>
-                    <option value="nature">Nature Tour</option>
+                    <option value="harry" selected>ハリーポッターツアー</option>
+                    <option value="history">歴史ツアー</option>
+                    <option value="nature">自然ツアー</option>
                 </select>
                 <label for="select-type">Type:</label>
                 <select name="type" id="select-type">
-                    <option value="one" selected>One Day Tour</option>
-                    <option value="two">Two Day Tour</option>
+                    <option value="one" selected>日帰りツアー</option>
+                    <option value="two">1泊2日ツアー</option>
                 </select>
             </div>
             <!--Member-->
-            <h2>Member</h2>
+            <h2>人数</h2>
             <div id="main-content-booking-member">
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-pre">Preschool(~4):</label>
+                        <label for="select-member-pre">幼児(~4):</label>
                         <input type="text" value="0" name="pre" id="select-member-pre">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-gra">Gradeschooler(5~12):</label>
+                        <label for="select-member-gra">学生(5~12):</label>
                         <input type="text" value="0" name="gra" id="select-member-gra">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-yad">Young Adult(13~21):</label>
+                        <label for="select-member-yad">学生(13~21):</label>
                         <input type="text" value="0" name="yad" id="select-member-yad">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-adt">Adult(22~):</label>
+                        <label for="select-member-adt">大人(22~):</label>
                         <input type="text" value="0" name="adt" id="select-member-adt">
                     </div>
                 </div>
             </div>
             <div id="main-content-booking-date">
-                <h2>Date</h2>
-                <label for="select-day">Day:</label>
+                <h2>日付</h2>
+                <label for="select-day">日:</label>
                 <input type="text" value="1" name="day" id="select-day">
-                <label for="select-year">Month:</label>
+                <label for="select-year">月:</label>
                 <input type="text" value="1" name="year" id="select-year">
             </div>
             <div>
-                <h2>Mail</h2>
+                <h2>メール</h2>
                 <input type="text" name="mail" id="select-mail">
             </div>
             <div class="main-content-booking-check">
-                <input type="submit" value="Check">
+                <input type="submit" value="確認">
             </div>
         </div>
     </form>
