@@ -1,4 +1,4 @@
-function readySubList() {
+window.addEventListener("load", (event) => {
     var nodeList = document.querySelectorAll(".has-sub-menu"); //プルダウンメニューのNodeList
 
     nodeList.forEach(function (children) {
@@ -10,5 +10,4 @@ function readySubList() {
             children.querySelector(".sub-menu").classList.remove("sub-menu-active"); //アウトマウス時にsub-list-activeクラスを削除
         });
     });
-}
-
+});

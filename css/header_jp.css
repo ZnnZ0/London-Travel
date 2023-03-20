@@ -1,0 +1,110 @@
+/*COMMON*/
+header {
+    /*model*/
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    /*box*/
+    width: 100%;
+
+    /*background*/
+    background-color: #996633;
+
+    /*font*/
+    color: #ffffff;
+    text-align: center;
+}
+
+header a {
+    /*font*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*UPPER_MENU*/
+#upper-menu-list {
+    /*model*/
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+    /*box*/
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#upper-menu-list li {
+    /*box*/
+    width: 200px;
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+
+    /*font*/
+    font-size: 15px;
+}
+
+.upper-menu-list-top {
+    /*box*/
+    padding: 0px 0px 0px 0px;
+}
+
+/*MAIN_MENU*/
+#main-menu-list {
+    /*model*/
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    /*box*/
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#main-menu-list li {
+    /*box*/
+    width: 200px;
+    height: 40px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+
+    /*font*/
+    font-size: 20px;
+}
+
+.main-menu-list-top {
+    /*box*/
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+}
+
+/*SUB_MENU*/
+.sub-menu {
+    /*model*/
+    display: none;
+    list-style-type: none;
+}
+
+.sub-menu li {
+    /*background*/
+    background-color: #999966;
+
+    /*animation*/
+    transition: all 0.3s ease;
+}
+
+.sub-menu-active {
+    /*model*/
+    display: block;
+}
+
+.sub-menu-active li:hover {
+    /*background*/
+    background-color: #e6e69a;
+}
+
+.has-sub-menu:hover {
+    /*background*/
+    background-color: #999966;
+}
