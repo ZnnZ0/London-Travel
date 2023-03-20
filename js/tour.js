@@ -23,6 +23,13 @@ var harryPotterTourExp_jp = {
     HarryPotterStudio: "ワーナーブラザース スタジオツアーロンドン-メイキング・オブ ・ハリー・ポッター（英語: Warner Bros. Studio Tour London – The Making of Harry Potter）は、イギリスの首都ロンドン近郊の町ワトフォードにあるワーナー・ブラザースリーブスデン・スタジオ内に設けられたウォークスルー型の展示施設。映画ハリー・ポッターシリーズで実際に使用されたセット、衣装、小道具などが展示されている。ツアーはJエリアから一度屋外へ出て次のKエリアに進むよう配置されており、これは実際のスタジオ配置に即したものとなっている。"
 };
 
+var harryPotterTourExp_fr = {
+    KingsCrossStation: "La gare de King's Cross est une gare ferroviaire située à Londres, en Angleterre. Les élèves de l'école de sorcellerie Poudlard montent à bord du Poudlard Express à partir des quais 9 et 3/4 à 11h00 le 1er septembre de chaque année. Pour accéder aux quais 9 et 3/4, il faut franchir le mur de clôture entre les quais 9 et 10.",
+    LeadenhallMarket: "Il a été utilisé pour représenter le quartier de Londres près du Chaudron Fuyant et de Diagon Alley dans le film Harry Potter et l'école des sorciers (2001).",
+    LondonMillenniumFootbridge: "Ce pont apparaît dans la première partie du film de la série Harry Potter, Harry Potter et le Prince de Sang-Mêlé, et est détruit par les Mangemorts.",
+    HarryPotterStudio: "The Making of Harry Potter est une exposition et une visite de studio à Leavesden, Hertfordshire, Royaume-Uni, appartenant à Warner Bros. et gérée par sa division Studio Tours. Il est situé dans les studios Warner Bros. Leavesden, à Watford, dans le sud-ouest du Hertfordshire, et abrite une exposition permanente de costumes, d'accessoires et de décors authentiques utilisés dans la production des films Harry Potter, ainsi que les coulisses de la production d'effets visuels. La visite se déroule dans les studios J et K, qui ont été spécialement construits pour l'attraction, et est séparée des installations de production du studio."
+};
+
 var historyTourSrc = {
     WestminsterAbbey: "../img/historyTour/historyTour_WestminsterAbbey.jpg",
     BuckinghamPalace: "../img/historyTour/historyTour_BuckinghamPalace.jpg",
@@ -76,6 +83,15 @@ var natureTourExp = {
     LochNess: "Loch Ness is the largest freshwater loch (lake) in the United Kingdom, located in the Highlands of northern Scotland. It has been said that there is an unidentified animal called Nessie in Loch Ness.Therefore, there are many tourists such as occult clubs, and there are many videos and photographs that claim to show Nessie.",
     TheOrkneyIslands: "The Neolithic Center of the Orkney Islands is a UNESCO World Heritage Site in Scotland, United Kingdom. The oldest surviving stone dwellings in northern Europe are those at Knap of Howar on Papa Westray, dating from around 3500 to 3100 BC."
 };
+
+
+var natureTourExp_fr = {
+    Stonehenge: "Une structure mégalithique qui apparaît soudainement dans les plaines de Salisbury, dans le sud de l'Angleterre. Stonehenge aurait été construit en trois périodes, d'environ 3000 avant J.-C. à 1500 avant J.-C.",
+    GiantsCauseway: "La Chaussée des Géants est une zone de 40 000 piliers de pierre formés par l'activité volcanique en Irlande du Nord, en Angleterre. Elle se trouve sur le littoral, à 2 km au nord de Bushmills, dans le comté d'Antrim. Elle a été déclarée site du patrimoine mondial par l'UNESCO en 1986 et réserve naturelle l'année suivante par le ministère de l'environnement d'Irlande du Nord.",
+    HydePark: "Hyde Park est un parc situé au centre de Londres, de Westminster à Kensington. C'est l'un des huit parcs royaux de Londres. D'une superficie totale de 142 hectares (350 acres), il a été le site de l'Exposition universelle de Londres en 1851, la première exposition universelle au monde.",
+    BirlingGapAndTheSevenSisters: "Birling Gap et les Seven Sisters sont des falaises maritimes de craie crétacée situées dans l'East Sussex, dans le sud de l'Angleterre. Le nom dérive de l'apparence des falaises blanches formées par le raclage de collines légèrement ondulées.",
+    LochNess: "Le Loch Ness est le plus grand loch (lac) d'eau douce du Royaume-Uni, situé dans les Highlands, au nord de l'Écosse. On dit qu'il y a un animal non identifié appelé Nessie dans le Loch Ness. Par conséquent, il y a beaucoup de touristes tels que les clubs occultes, et il y a beaucoup de vidéos et de photographies qui prétendent montrer Nessie.",
+    TheOrkneyIslands: "Le centre néolithique des îles Orcades est un site du patrimoine mondial de l'UNESCO situé en Écosse, au Royaume-Uni. Les plus anciennes habitations en pierre conservées en Europe du Nord sont celles de Knap of Howar sur Papa Westray, datant d'environ 3500 à 3100 av."
 
 var natureTourExp_jp = {
     Stonehenge: "イングランド南部ソールズベリーの平原に突如現れる巨石建造物。 ストーンヘンジは、紀元前 3000 年頃の 3 つの期間にわたって建設されたと考えられています。 紀元前1500年まで",
