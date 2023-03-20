@@ -119,7 +119,7 @@ body {
     /*box*/
     margin: 0px 0px 0px 0px;
     padding: 100px 0px 5px 10px;
-    border-width: 0px 0px 2px 0px;
+    border-width: 0px 0px 4px 0px;
     border-style: solid;
     border-color: #8B572A;
 
@@ -171,4 +171,30 @@ body {
 .main-content-tourAbout-detail-explain p {
     /*font*/
     font-size: 20px;
+}
+
+.main-content-tourAbout-detail-option {
+    /*model*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-content-tourAbout-detail-option div {
+    /*box*/
+    margin: 0px 50px 0px 0px;
+}
+
+.main-content-tourAbout-detail-option img {
+    /*box*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: #8B572A;
+    border-radius: 50%;
+}
+
+.main-content-tourAbout-detail-option p {
+    /*font*/
+    color: #8B572A;
+    font-weight: bold;
+    text-align: center;
 }
