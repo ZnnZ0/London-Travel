@@ -129,13 +129,16 @@ header a {
 }
 
 #sns-menu img {
+    /*model*/
+    opacity: 0.6;
+
     /*box*/
     width: 50px;
 }
 
 #sns-menu img:hover {
     /*model*/
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 /*BACK_MENU*/
@@ -148,11 +151,14 @@ header a {
 }
 
 #back-menu img {
+    /*model*/
+    opacity: 0.6;
+
     /*box*/
     width: 50px;
 }
 
 #back-menu img:hover {
     /*model*/
-    opacity: 0.5;
+    opacity: 0.4;
 }
