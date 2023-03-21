@@ -51,6 +51,10 @@ body {
     /*font*/
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    /*UI*/
+    outline: none;
 }
 
 #main-content-booking select {
@@ -88,17 +92,11 @@ body {
 .main-content-booking-member-detail input[type="text"] {
     /*box*/
     width: 50px;
-
-    /*font*/
-    text-align: center;
 }
 
 #main-content-booking-date input[type="text"] {
     /*box*/
     width: 50px;
-
-    /*font*/
-    text-align: center;
 }
 
 .main-content-booking-check input[type="button"] {
