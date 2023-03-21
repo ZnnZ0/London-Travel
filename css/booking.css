@@ -67,11 +67,19 @@ body {
     /*font*/
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+
+    /*UI*/
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #main-content-booking option {
     /*box*/
     padding: 10px 0px 10px 0px;
+
+    border: none;
 }
 
 .main-content-booking-member-detail {

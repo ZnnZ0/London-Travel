@@ -2,7 +2,7 @@
 header {
     /*model*/
     position: fixed;
-    top: 0;
+    top: 0px;
     z-index: 1;
 
     /*box*/
@@ -20,6 +20,11 @@ header a {
     /*font*/
     color: #ffffff;
     text-decoration: none;
+}
+
+.header-transparent {
+    /*model*/
+    opacity: 0.6;
 }
 
 /*UPPER_MENU*/
@@ -107,4 +112,47 @@ header a {
 .has-sub-menu:hover {
     /*background*/
     background-color: #999966;
+}
+
+/*SNS_MENU*/
+#sns-menu {
+    /*model*/
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1;
+}
+
+#sns-menu p {
+    /*box*/
+    margin: 20px 0px 0px 0px;
+}
+
+#sns-menu img {
+    /*box*/
+    width: 50px;
+}
+
+#sns-menu img:hover {
+    /*model*/
+    opacity: 0.5;
+}
+
+/*BACK_MENU*/
+#back-menu {
+    /*model*/
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+#back-menu img {
+    /*box*/
+    width: 50px;
+}
+
+#back-menu img:hover {
+    /*model*/
+    opacity: 0.5;
 }
