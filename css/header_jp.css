@@ -50,6 +50,10 @@ header a {
     font-size: 15px;
 }
 
+.upper-menu-list-single:hover {
+    background-color: #999966;
+}
+
 .upper-menu-list-top {
     /*box*/
     padding: 0px 0px 0px 0px;
@@ -130,10 +134,13 @@ header a {
 
 #sns-menu img {
     /*model*/
-    opacity: 0.6;
+    opacity: 0.8;
 
     /*box*/
     width: 50px;
+
+    /*animation*/
+    transition: all 0.3s ease;
 }
 
 #sns-menu img:hover {
@@ -146,16 +153,19 @@ header a {
     /*model*/
     position: fixed;
     right: 20px;
-    bottom: 0px;
+    bottom: 20px;
     z-index: 1;
 }
 
 #back-menu img {
     /*model*/
-    opacity: 0.6;
+    opacity: 0.8;
 
     /*box*/
     width: 50px;
+
+    /*animation*/
+    transition: all 0.3s ease;
 }
 
 #back-menu img:hover {
